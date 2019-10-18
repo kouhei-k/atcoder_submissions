@@ -1,0 +1,5 @@
+S=list(input())
+l =len(S)
+a_id=S.index("A")
+z_id=list(reversed(S)).index("Z")
+print(l-z_id - a_id)
